@@ -34,14 +34,14 @@ const Inicio = () => {
 
       <div id='contenedor_secciones'>
       {isOpenP?(<motion.div
-      initial={{y:'-100%', rotate:-360}}
+      initial={{y:'-100%', scale:0}}
       transition={{duration: 2}}
       animate={isOpenP ? "open" : "closed"}
       variants={variantsP} >
       <Presentacion />
       </motion.div>):null}
       {isOpenC?(<motion.div
-      initial={{y:'-100%', rotate:-360}}
+      initial={{y:'-100%', scale:[0,0,0,1]}}
       transition={{duration: 2}}
       animate={isOpenC ? "open" : "closed"}
       variants={variantsC} >
