@@ -1,0 +1,4 @@
+#BFBFBF blanco grisaseo
+#10403B verde fuerte
+#8AA6A3 verde medio medio
+#4C5958 gris medio fuerte

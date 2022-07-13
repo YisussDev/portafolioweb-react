@@ -1,0 +1,11 @@
+#proyectos{
+    width: 380px;
+    min-height: 600px;
+    border-radius: 20px;
+    background-color: #BFBFBF;
+    box-shadow: 0px 0px 3px 1px #0000005e;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

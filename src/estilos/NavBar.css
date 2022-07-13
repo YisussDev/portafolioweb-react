@@ -1,0 +1,55 @@
+#Navbar{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: #BFBFBF;
+    box-shadow: 0px 0px 3px 1px #0000005e;
+    z-index: 100000;
+}
+#logo{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotar;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#Navbar > button {
+    height: 50px;
+    width: 50px;
+    background-color: #bfbfbf00;
+    border: 1px solid #10403B;
+    transition: 0.5s;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+#Navbar > button:hover {
+    box-shadow: 0px 0px 2px 2px #10403B;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#Navbar > span {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+#Navbar > span:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 2px 2px #10403B;
+}
+#Navbar > span > img {
+    height: 100%;
+    width: 100%;
+}
