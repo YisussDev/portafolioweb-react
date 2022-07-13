@@ -34,15 +34,15 @@ const Inicio = () => {
 
       <div id='contenedor_secciones'>
       {isOpenP?(<motion.div
-      initial={{y:'-100%'}}
-      transition={{duration: 2}}
+      initial={{y:'-200%'}}
+      transition={{duration: 3}}
       animate={isOpenP ? "open" : "closed"}
       variants={variantsP} >
       <Presentacion />
       </motion.div>):null}
       {isOpenC?(<motion.div
-      initial={{y:'-100%'}}
-      transition={{duration: 2}}
+      initial={{y:'-200%'}}
+      transition={{duration: 3}}
       animate={isOpenC ? "open" : "closed"}
       variants={variantsC} >
       <Proyectos />
