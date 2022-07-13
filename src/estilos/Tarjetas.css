@@ -10,6 +10,7 @@
     height: 100%;
     width: 100%;
     border-radius: 20px;
+    filter: blur(1px);
     
 }
 #botones {
@@ -22,22 +23,27 @@
     height: 40px;
 }
 #botones > h2 {
-    color: #4C5958;
+    color: #10403B;
+    border-radius: 10px;
+    padding: 2px;
+    border: 1px solid #10403B;
+    background-color: #FFFFFF;
     margin: 20px;
     user-select: none;
 }
 #botones > a > button {
-    background-color: inherit;
+    background-color: #ffffff;
+    color: #10403B;
     margin: 10px;
     border-radius: 10px;
     border:2px solid #10403B;
-    color: white;
     padding: 10px 20px;
     transition: 0.3s;
 }
 #botones > a > button:hover{
     background-color: #10403B;
     cursor: pointer;
+    color: white;
     transition: 0.3s;
 }
 #botones > a > button:active{
