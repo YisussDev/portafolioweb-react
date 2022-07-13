@@ -1,6 +1,6 @@
 #presentacion{
     width: 380px;
-    min-height: 600px;
+    min-height: 500px;
     border-radius: 20px;
     background-color: #BFBFBF;
     box-shadow: 0px 0px 3px 1px #0000005e;
@@ -23,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 500px;
+    min-height: 350px;
 }
 #presentacion > div > h2 {
     margin-top: 10px;

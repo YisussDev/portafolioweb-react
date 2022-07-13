@@ -13,8 +13,8 @@ const NavBar = (props) => {
     <div id='Navbar'>
       <button onClick={props.abrirM}><FontAwesomeIcon icon={faCode} /></button>
       <motion.div
-      transition={{repeat: Infinity, duration: 3}}
-      animate = {{rotate: [0, 360], scale: [1, 1.3 , 1.2, 1.3, 1]}}
+      transition={{repeat: Infinity, duration: 10}}
+      animate = {{rotate: [0, 360]}}
       >
         <img src={logojp} id='logo' alt="" />
       </motion.div>
